@@ -1,0 +1,76 @@
+<link rel="stylesheet" type="text/css" href="watchstyle.css">
+<script type="text/javascript" src="watch.js"></script>
+<div class="header">
+
+</div>
+
+
+
+<div class="watch-container">
+
+    <div class="watch-strap-top"></div>
+
+    <!-- <div class="watch"> -->
+
+    <div id="myCanvas">
+        <p class="scorebox">
+
+            <br>
+            <b class="gameFont">CLICK..CLOCK!</b>
+            <br>
+
+            <br> Instructions:
+
+            <br>Dots are falling! 1 dot = 1 point. See if you can reach 20 points!
+            <br>
+            <br> Left button: Start game
+            <br>
+            <br> Top right button: Faster
+            <br>
+            <br> Bottom right button: Pause/Resume
+            <br>
+            <br> Good Luck!
+        </p>
+        <p id="score" style="z-index: -1;box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5), 1px 1px 2px rgba(0, 0, 0, 0.3); padding-top:5px; text-align: center;background-color: #C0C0C0;border-radius:4px;margin-left: 60px;width:60%;">Score: 0</p>
+
+
+        <!-- <script type="text/javascript">
+            startGame()
+        </script> -->
+
+    </div>
+    <!-- <button type="button" onclick="blank()" class="pause"></button>
+    <div class="startGameButton"> -->
+    <button type="button" onclick="startGame()" class="speedup"></button>
+    <button type="button" onclick="startGame()" class="startGameButton"></button>
+    <button type="button" onclick="pauseButton()" class="pause"></button>
+    <div class="watch-strap-bottom">
+
+
+    </div>
+</div>
+
+<!-- transform: translateY(4px);
+padding-left: 25px;
+margin: auto;
+display: block;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+/* position: relative; */
+z-index: -1;
+width: 15px;
+height: 26px;
+top: -13px;
+left: 265px;
+border-radius: 5px;
+background: #999;
+border-right: 2px solid rgba(0, 0, 0, 0.05);
+box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); -->
+
+<!-- <div class="footer">
+    <!-- <button onclick="startGame()">Speed up</button> -->
+<!-- &copy; 2018 <a href="http://google.com">Maurizio Lorenzetti</a> 
+</div> -->
